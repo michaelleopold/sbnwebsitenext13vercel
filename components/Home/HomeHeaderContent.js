@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HomeHeaderContent = () => (
   <div className="flex-grow flex flex-col justify-center items-center text-white">
-    <h1 className="text-2xl md:text-[1.6rem] lg:text-3xl font-light mb-3">We are Certified Engineers</h1>
+    <h1 className="text-2xl text-center md:text-[1.6rem] lg:text-3xl font-light mb-3">We are Certified Engineers</h1>
     <h1 className="text-5xl text-center md:text-[3.1rem] md:mb-1 lg:mb-0 lg:text-6xl font-bold">PUMPING SERVICES</h1>
     <h1 className="text-3xl text-center md:text-[3.1rem] lg:text-6xl font-bold text-[#0094DF]">EXPERIENCED & PROFESSIONAL</h1>
     <div className="w-fit mt-6">
