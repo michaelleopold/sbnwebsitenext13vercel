@@ -1,6 +1,6 @@
 'use client';
 
-const url = 'http://localhost:3000/catalog/Mobile Dewatering Pump Catalog SBN_EN.pdf';
+const url = 'https://samuderabirunusantara.com/catalog/Mobile Dewatering Pump Catalog SBN_EN.pdf';
 
 const DownloadCatalogButton = ({ sizes = 'small' }) => {
   function downloadCatalog() {
