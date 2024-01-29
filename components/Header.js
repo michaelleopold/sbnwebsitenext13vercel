@@ -4,10 +4,12 @@ import Link from 'next/link';
 import { useState, memo } from 'react';
 
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import MenuTextBigScreen from './Header/MenuTextBigScreen';
 
 const Header = ({ darkMode = false }) => {
   const [mobileMenuClicked, setMobileMenuClicked] = useState(false);
+  const pathname = usePathname();
 
   return (
     <>
@@ -19,6 +21,7 @@ const Header = ({ darkMode = false }) => {
           <MenuTextBigScreen routeName='/' darkMode={darkMode} name="Home" />
           <MenuTextBigScreen routeName='/services' darkMode={darkMode} name="Services" />
           <MenuTextBigScreen routeName='/projects' darkMode={darkMode} name="Projects" />
+          <MenuTextBigScreen routeName='/mdp' darkMode={darkMode} name="MDP" />
           <MenuTextBigScreen routeName='/about' darkMode={darkMode} name="About" />
           <MenuTextBigScreen routeName='/contact' darkMode={darkMode} name="Contact" />
         </div>
@@ -26,13 +29,15 @@ const Header = ({ darkMode = false }) => {
 
       <div className="lg:hidden flex justify-between items-center w-full">
         <div className="ml-10 w-28 md:w-40 flex items-center z-10">
-          <Image src="/logos/sbn.webp" alt="PT Samudera Biru Nusantara logo" width={256} height={138} />
+          <Image src="/logos/sbn.webp" alt="PT Samudera Biru Nusantara logo" width={256} height={138} className="font-black stroke-black" />
         </div>
         <div className="pr-10">
           <button type="button" onClick={() => {
             setMobileMenuClicked(true);
           }}>
-            <Image src="/icons/menu.png" alt="menu icon" width={32} height={32} className="w-7 md:w-8 hover:opacity-60 active:opacity-30" />
+            {pathname === '/mdp' ? <Image src="/icons/menu-black.png" alt="menu icon" width={32} height={32} className="w-7 md:w-8 hover:opacity-60 active:opacity-30" />
+              : <Image src="/icons/menu.png" alt="menu icon" width={32} height={32} className="w-7 md:w-8 hover:opacity-60 active:opacity-30" />
+            }
           </button>
         </div>
       </div>
@@ -57,6 +62,12 @@ const Header = ({ darkMode = false }) => {
           </h1>
           <h1 className="text-white text-lg">
             <Link href="/projects">Projects</Link>
+          </h1>
+          <h1 className="relative text-white text-lg">
+            <Link href="/mdp">Mobile Dewatering Pump</Link>
+            <div className='absolute -top-[0.75rem] -right-[1rem]'>
+              <Image src="/icons/new.png" alt="New Icon" width={32} height={32} />
+            </div>
           </h1>
           <h1 className="text-white text-lg">
             <Link href="/about">About</Link>

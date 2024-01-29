@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       screens: {
         xsm: '440px',
+        'mdp1.5xl': '1350px',
       },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
@@ -41,6 +42,7 @@ module.exports = {
         whatsapp: '#25D366',
         'teal-dark': '#00251a',
         footer: '#16192B',
+        main: '#0391da',
       },
       transitionProperty: {
         height: 'height',
