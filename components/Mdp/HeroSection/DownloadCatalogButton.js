@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import LoadingDownloadCatalog from './LoadingDownloadCatalog';
 
-const url = 'https://samuderabirunusantara.com/catalog/Mobile Dewatering Pump Catalog SBN_EN.pdf';
+const url = 'https://samuderabirunusantara.com/documents/Mobile Dewatering Pump Catalog SBN_EN.pdf';
 
 const DownloadCatalogButton = ({ sizes = 'small' }) => {
   const [loading, setLoading] = useState(false);
