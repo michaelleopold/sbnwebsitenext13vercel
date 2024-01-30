@@ -11,7 +11,7 @@ const MenuTextBigScreen = ({ darkMode, routeName, name }) => {
         <h1 className={`relative z-40 hover:cursor-pointer active:opacity-30 ${darkMode ? 'text-black' : 'text-white'} ${pathname === routeName ? 'text-white' : 'text-black'}`}>
           <Link href={routeName}>{name}</Link>
         </h1>
-        <div className='absolute -top-[0.8rem] -right-[0.13rem] z-0'>
+        <div className='absolute -top-[0.7rem] -right-[0.13rem] z-0'>
           <Image src="/icons/new.png" alt="New Icon" width={32} height={32} />
         </div>
       </div>

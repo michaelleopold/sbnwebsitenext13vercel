@@ -65,7 +65,7 @@ const Header = ({ darkMode = false }) => {
           </h1>
           <h1 className="relative text-white text-lg">
             <Link href="/mdp">Mobile Dewatering Pump</Link>
-            <div className='absolute -top-[0.75rem] -right-[1rem]'>
+            <div className='absolute -top-[0.6rem] -right-[1rem]'>
               <Image src="/icons/new.png" alt="New Icon" width={32} height={32} />
             </div>
           </h1>
