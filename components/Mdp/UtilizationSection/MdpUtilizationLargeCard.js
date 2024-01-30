@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const MdpUtilizationLargeCard = ({
-  description, image, alt = '', sizes = '100vw', top = 'top-[20.5rem]', topXl = 'xl:top-[22.5rem]', top2Xl = '2xl:top-[24.5rem]', maxWdith = 'max-w-[33rem]',
+  description, image, alt = '', sizes = '100vw', top = 'top-[20.5rem]', topXl = 'xl:top-[22.5rem]', top2Xl = '2xl:top-[24.5rem]', maxWdith = 'max-w-[34.5rem]',
 }) => (
   <div className="relative">
     <div className="relative drop-shadow-xl h-96 xl:h-100 2xl:h-110 w-170 xl:w-[50rem] 2xl:w-[57rem] rounded-xl overflow-hidden z-0">
