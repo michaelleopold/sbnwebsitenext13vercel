@@ -19,8 +19,8 @@ import boosterpump from '../public/images/boosterpump.webp';
 import visiW400 from '../public/images/about/visi_w400.webp';
 
 export const metadata = {
-  title: 'Solusi Pompa Dewatering dan Slurry Dengan Pengalaman 20 Tahun Lebih - PT Samudera Biru Nusantara',
-  description: 'SBN bergerak di bidang pemompaan dewatering/air dan slurry/lumpur di tambang batubara sejak tahun 2000 (24 tahun), kami telah bekerja di banyak tambang besar seperti PT Wijaya Karja, PT Berau Coal, PT Dharma Henwa, dan masih banyak lagi',
+  title: 'Solusi Pompa Dewatering dan Slurry Dengan Pengalaman 20 Tahun Lebih',
+  description: 'Kami bergerak di bidang pemompaan dewatering/air dan slurry/lumpur di tambang batubara sejak tahun 2000 (24 tahun), kami telah bekerja di banyak tambang besar seperti PT Wijaya Karja, PT Berau Coal, PT Dharma Henwa, dan masih banyak lagi. PT Samudera Biru Nusantara (SBN)',
 };
 
 const Home = () => (
