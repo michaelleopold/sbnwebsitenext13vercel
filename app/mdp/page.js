@@ -7,6 +7,9 @@ import MdpUtilizationSection from '../../components/Mdp/MdpUtilizationSection';
 export const metadata = {
   title: 'Mobile Dewatering Pump: Masa depan dari pompa',
   description: 'Mobilitas, bobot sangat ringan, kapasitas air tinggi, teknologi modern menjadi kekuatan dari Mobile Dewatering Pump (MDP). Disediakan oleh PT Samudera Biru Nusantara (SBN), Mobile Dewatering Pump dapat digunakan di perkebunan (plantation), banjir (flood), sungai (river), bendungan (dam), dan masih banyak lagi.',
+  openGraph: {
+    images: ['https://samuderabirunusantara.com/og/og-mdp.png'],
+  },
 };
 
 const MDP = () => (
