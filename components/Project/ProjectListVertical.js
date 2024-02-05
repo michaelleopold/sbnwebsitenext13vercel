@@ -74,7 +74,7 @@ const ProjectListVertical = () => (
 
         <div className="w-full flex flex-col">
           <h1 className="font-medium text-2xl text-gray-900">Project Slurry & Dewatering Removal - PT. Pratama Bersama</h1>
-          <h3 className="font-light mb-3 text-gray-500">Melak, East Kalimantan - 2023</h3>
+          <h3 className="font-light mb-3 text-gray-500">Melak, East Kalimantan - 2022</h3>
           <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
             {pb && <Image src={pb} placeholder="blur" alt="Project Pompa Slurry/Lumpur dan Dewatering/Air PT Samudera Biru Nusantara di PT PB" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
           </div>
@@ -118,7 +118,7 @@ const ProjectListVertical = () => (
         </div>
 
         <div className="absolute top-[222rem] right-[22rem] flex flex-col w-[35rem]">
-          {pb && <SingleProjectComponent image={pb} alt="Project Pompa Slurry/Lumpur dan Dewatering/Air PT Samudera Biru Nusantara di PT PB" year="2023" companyName="PT. PRATAMA BERSAMA" description="Working as Contractor for Slurry and Dewatering Removal in Melak, East Kalimantan." projectName="SLURRY & DEWATERING REMOVAL" />}
+          {pb && <SingleProjectComponent image={pb} alt="Project Pompa Slurry/Lumpur dan Dewatering/Air PT Samudera Biru Nusantara di PT PB" year="2022" companyName="PT. PRATAMA BERSAMA" description="Working as Contractor for Slurry and Dewatering Removal in Melak, East Kalimantan." projectName="SLURRY & DEWATERING REMOVAL" />}
         </div>
 
         <div className="absolute top-[259rem] left-[22rem] flex flex-col w-[35rem]">
