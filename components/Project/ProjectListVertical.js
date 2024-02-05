@@ -11,6 +11,8 @@ import bengalonasam from '../../public/images/projects/project-asam-asam-dan-ben
 import amborawang from '../../public/images/projects/project-jetty-ambalat.webp';
 import dondang from '../../public/images/projects/project-jetty-dondang.webp';
 import melak from '../../public/images/projects/project-melak.webp';
+import pb from '../../public/images/projects/project-pb.webp';
+import bpac from '../../public/images/projects/project-bpac.webp';
 
 const ProjectListVertical = () => (
   <div className="w-full py-20 xl:pt-28 xl:pb-[30rem] flex flex-col justify-center items-center bg-white">
@@ -24,7 +26,7 @@ const ProjectListVertical = () => (
       <div className="mx-auto w-full max-w-[25rem] px-4 sm:max-w-[32rem] md:max-w-[42rem] mt-12 flex flex-col space-y-16 xl:hidden">
         <div className="w-full flex flex-col">
           <h1 className="font-medium text-2xl text-gray-900">Project Dredging - PT. Wika-Hutama Jo (WIKA)</h1>
-          <h3 className="font-light mb-3 text-gray-500 md:text-lg">(Lokasi Belawan, Medan) - 2018</h3>
+          <h3 className="font-light mb-3 text-gray-500 md:text-lg">Belawan, North Sumatera - 2018</h3>
           <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
             {belawan && <Image src={belawan} placeholder="blur" alt="Project PT Samudera Biru Nusantara di PT WIKA Dredging Project" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 50vw, 60vw" fill className="object-cover" />}
           </div>
@@ -32,7 +34,7 @@ const ProjectListVertical = () => (
 
         <div className="w-full flex flex-col">
           <h1 className="font-medium text-2xl text-gray-900">Project Slurry Removal - PT. Kayan Putra Utama Coal (KPUC)</h1>
-          <h3 className="font-light mb-3 text-gray-500">(Lokasi Separi, Kalimantan Timur & Malinau, Kalimantan Utara) - 2019</h3>
+          <h3 className="font-light mb-3 text-gray-500">Separi, East Kalimantan & Malinau, North Kalimantan - 2019</h3>
           <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
             {separimalinau && <Image src={separimalinau} placeholder="blur" alt="Project Pompa Slurry/Lumpur PT Samudera Biru Nusantara di PT Kaltim Prima Utama Coal" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
           </div>
@@ -40,7 +42,7 @@ const ProjectListVertical = () => (
 
         <div className="w-full flex flex-col">
           <h1 className="font-medium text-2xl text-gray-900">Project Slurry Removal - PT. Dharma Henwa (DH)</h1>
-          <h3 className="font-light mb-3 text-gray-500">(Lokasi Asam-Asam, Kalimantan Selatan & Bengalon, Kalimantan Timur) - 2019</h3>
+          <h3 className="font-light mb-3 text-gray-500">Asam-Asam, South Kalimantan & Bengalon, East Kalimantan - 2019</h3>
           <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
             {bengalonasam && <Image src={bengalonasam} placeholder="blur" alt="Project Pompa Slurry/Lumpur PT Samudera Biru Nusantara di PT Dharma Henwa" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
           </div>
@@ -48,7 +50,7 @@ const ProjectListVertical = () => (
 
         <div className="w-full flex flex-col">
           <h1 className="font-medium text-2xl text-gray-900">Project Jetty Dredging - PT. TBS</h1>
-          <h3 className="font-light mb-3 text-gray-500">(Lokasi Amborawang Laut, Kalimantan Timur) - 2021</h3>
+          <h3 className="font-light mb-3 text-gray-500">Amborawang Laut, East Kalimantan - 2021</h3>
           <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
             {dondang && <Image src={dondang} placeholder="blur" alt="Project Dredging Atau Pengerukan PT Samudera Biru Nusantara di PT TBS" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
           </div>
@@ -56,7 +58,7 @@ const ProjectListVertical = () => (
 
         <div className="w-full flex flex-col">
           <h1 className="font-medium text-2xl text-gray-900">Project Jetty Dredging - PT. Globalindo Inti Energi</h1>
-          <h3 className="font-light mb-3 text-gray-500">(Lokasi Dondang, Kalimantan Timur) - 2021</h3>
+          <h3 className="font-light mb-3 text-gray-500">Dondang, East Kalimantan - 2021</h3>
           <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
             {amborawang && <Image src={amborawang} placeholder="blur" alt="Project Dredging Atau Pengerukan PT Samudera Biru Nusantara di PT Globalindo Intie Energi" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
           </div>
@@ -64,9 +66,25 @@ const ProjectListVertical = () => (
 
         <div className="w-full flex flex-col">
           <h1 className="font-medium text-2xl text-gray-900">Project Slurry Removal & Dewatering - PT. Jomima Baramulia Abadi</h1>
-          <h3 className="font-light mb-3 text-gray-500">(Lokasi Melak, Kalimantan Timur) - 2021</h3>
+          <h3 className="font-light mb-3 text-gray-500">Melak, East Kalimantan - 2021</h3>
           <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
             {melak && <Image src={melak} placeholder="blur" alt="Project Pompa Slurry/Lumpur dan Dewatering/Air PT Samudera Biru Nusantara di PT JBA" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
+          </div>
+        </div>
+
+        <div className="w-full flex flex-col">
+          <h1 className="font-medium text-2xl text-gray-900">Project Slurry & Dewatering Removal - PT. Pratama Bersama</h1>
+          <h3 className="font-light mb-3 text-gray-500">Melak, East Kalimantan - 2023</h3>
+          <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
+            {pb && <Image src={pb} placeholder="blur" alt="Project Pompa Slurry/Lumpur dan Dewatering/Air PT Samudera Biru Nusantara di PT PB" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
+          </div>
+        </div>
+
+        <div className="w-full flex flex-col">
+          <h1 className="font-medium text-2xl text-gray-900">Project Slurry Removal - PT. Bima Putra Abadi Citranusa</h1>
+          <h3 className="font-light mb-3 text-gray-500">Lahat, South Sumatera - 2023</h3>
+          <div className="relative h-60 md:h-80 w-full md:w-[35rem] rounded-md shadow-lg overflow-hidden">
+            {bpac && <Image src={bpac} placeholder="blur" alt="Project Pompa Slurry/Lumpur PT Samudera Biru Nusantara di PT BPAC" sizes="(max-width: 640px): 33vw, (max-width: 768px): 40vw, (max-width: 1000) 55vw, 70vw" fill className="object-cover" />}
           </div>
         </div>
 
@@ -97,6 +115,14 @@ const ProjectListVertical = () => (
 
         <div className="absolute top-[187rem] left-[22rem] flex flex-col w-[35rem]">
           {melak && <SingleProjectComponent image={melak} alt="Project Pompa Slurry/Lumpur dan Dewatering/Air PT Samudera Biru Nusantara di PT JBA" year="2021" companyName="PT. JOMIMA BARAMULIA ABADI" description="Working as Contractor for Slurry and Dewatering Removal in Melak, East Kalimantan." projectName="SLURRY & DEWATERING REMOVAL" />}
+        </div>
+
+        <div className="absolute top-[222rem] right-[22rem] flex flex-col w-[35rem]">
+          {pb && <SingleProjectComponent image={pb} alt="Project Pompa Slurry/Lumpur dan Dewatering/Air PT Samudera Biru Nusantara di PT PB" year="2023" companyName="PT. PRATAMA BERSAMA" description="Working as Contractor for Slurry and Dewatering Removal in Melak, East Kalimantan." projectName="SLURRY & DEWATERING REMOVAL" />}
+        </div>
+
+        <div className="absolute top-[259rem] left-[22rem] flex flex-col w-[35rem]">
+          {bpac && <SingleProjectComponent image={bpac} alt="Project Pompa Slurry/Lumpur PT Samudera Biru Nusantara di PT BPAC" year="2023" companyName="PT. BIMA PUTRA ABADI CITRANUSA" description="Working as Contractor for Slurry Removal in Lahat, South Sumatera." projectName="SLURRY REMOVAL" />}
         </div>
       </div>
     </div>
