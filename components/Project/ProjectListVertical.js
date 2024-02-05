@@ -88,11 +88,11 @@ const ProjectListVertical = () => (
         </div>
 
         <div className="absolute top-[115rem] left-[22rem] flex flex-col w-[35rem]">
-          {amborawang && <SingleProjectComponent image={amborawang} alt="Project Dredging Atau Pengerukan PT Samudera Biru Nusantara di PT Globalindo Intie Energi" year="2021" companyName="PT. TBS" description="Working as Contractor for Jetty Dredging in Amborawang Laut, East Kalimantan." projectName="JETTY DREDGING" />}
+          {amborawang && <SingleProjectComponent image={amborawang} alt="Project Dredging Atau Pengerukan PT Samudera Biru Nusantara di PT TBS" year="2021" companyName="PT. TBS" description="Working as Contractor for Jetty Dredging in Amborawang Laut, East Kalimantan." projectName="JETTY DREDGING" />}
         </div>
 
         <div className="absolute top-[150rem] right-[22rem] flex flex-col w-[35rem]">
-          {dondang && <SingleProjectComponent image={dondang} alt="Project Dredging Atau Pengerukan PT Samudera Biru Nusantara di PT TBS" year="2021" companyName="PT. GLOBALINDO INTI ENERGIE" description="Working as Contractor for Jetty Dredging in Dondang, East Kalimantan." projectName="JETTY DREDGING" />}
+          {dondang && <SingleProjectComponent image={dondang} alt="Project Dredging Atau Pengerukan PT Samudera Biru Nusantara di PT GLOBALINDO INTI ENERGIE" year="2021" companyName="PT. GLOBALINDO INTI ENERGIE" description="Working as Contractor for Jetty Dredging in Dondang, East Kalimantan." projectName="JETTY DREDGING" />}
         </div>
 
         <div className="absolute top-[187rem] left-[22rem] flex flex-col w-[35rem]">
